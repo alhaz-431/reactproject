@@ -1,7 +1,6 @@
 import { FaCircleArrowRight } from "react-icons/fa6";
 import heroImg from "../assets/hero.webp";
-// import { motion } from "framer-motion";
-// import { fadeIn } from "../utilis/animation";
+
 
 const Hero = () => {
   return (
@@ -12,12 +11,7 @@ const Hero = () => {
       <div className="container mx-auto flex flex-col md:flex-row items-center justify-between p-8 overflow-y-hidden gap-12 h-full">
         {/* left side */}
 
-        <div
-          // variants={fadeIn("down", 0.2)}
-          // initial="hidden"
-          // whileInView={"show"}
-          // viewport={{ once: false, amount: 0.7 }}
-          className="md:w-1/2"
+        <div className="md:w-1/2"
         >
           <h1 className="text-4xl font-bold  mb-4 md:w-3/5 leading-snug">
             {" "}
