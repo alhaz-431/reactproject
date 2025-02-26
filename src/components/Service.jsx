@@ -1,7 +1,7 @@
 import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
 import serviceimg1 from "../assets/service1.webp";
 
-const Service = () => {  // ✅ "Service" বড় হাতের অক্ষরে ঠিক করা হয়েছে
+const Service = () => {  
   return (
     <div className="bg-[#f7f8fc]" id="services">
       <div className="pt-28 px-4 container mx-auto">
@@ -12,7 +12,7 @@ const Service = () => {  // ✅ "Service" বড় হাতের অক্ষর
           <p className="md:w-1/2 mx-auto">
             Lorem ipsum, dolor sit amet consectetur adipisicing elit.
           </p>
-        </div> {/* ✅ এখানে ভুল `<div>` বন্ধ করা হয়েছে */}
+        </div> 
 
         {/* Services Category */}
         <div className="py-12 md:w-4/5 mx-auto">
@@ -27,7 +27,7 @@ const Service = () => {  // ✅ "Service" বড় হাতের অক্ষর
             {/* TabPanel */}
             <TabPanel>
               <div className="flex flex-col md:flex-row gap-8 mt-8">
-                <div className="md:w-1/2 bg-white rounded-lg p-12">  {/* ✅ ভুল "md: w-1/2" ঠিক করা হয়েছে */}
+                <div className="md:w-1/2 bg-white rounded-lg p-12">  
                   <h3 className="text-3xl font-medium text-emerald-600 mb-4">
                     Couple Counseling
                   </h3>
@@ -72,4 +72,4 @@ const Service = () => {  // ✅ "Service" বড় হাতের অক্ষর
   );
 };
 
-export default Service;  // ✅ "service" -> "Service"
+export default Service;  
